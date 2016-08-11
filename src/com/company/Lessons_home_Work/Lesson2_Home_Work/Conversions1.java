@@ -2,7 +2,7 @@ package com.company.Lesson2_home_Work.Lesson2_Home_Work;
 
 import java.util.Scanner;
 
-public class FirstHome {
+public class Conversions1 {
 
     public static void main(String[] args) {
 	// write your code here

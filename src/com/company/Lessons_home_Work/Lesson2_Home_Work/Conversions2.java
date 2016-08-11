@@ -2,7 +2,7 @@ package com.company.Lesson2_home_Work.Lesson2_Home_Work;
 
 import java.util.Scanner;
 
-public class SecondHome {
+public class Conversions2 {
     public static void main(String[] args){
         Scanner cr = new Scanner(System.in);
         System.out.println("Please enter the meter");

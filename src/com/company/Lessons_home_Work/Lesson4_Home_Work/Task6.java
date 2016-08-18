@@ -8,17 +8,21 @@ public class Task6 {
         System.out.println("Please write a palindrome world:");
         Scanner cr = new Scanner(System.in);
         String world = cr.nextLine();
-        System.out.println("The world " + isPalindrome(world) + " is palindrome.");
+        System.out.println(isPalindrome(world));
 
     }
 
     public static String isPalindrome(String world){
         int lenght = world.length();
+        char[] arr = new char[lenght];
+        for (int i=0; i<lenght; i++){
+            arr[i] = world.charAt(i);
+        }
         for (int i = 0; i<lenght/2; i++){
-            if (world.charAt(i) != world.charAt(lenght -i -1)){
-                return "World isn't palindrome";
+            if (arr[i] != arr[lenght -i -1]){
+                return "World "+ world +" isn't palindrome";
             }
         }
-        return world;
+        return "The world " + world + " is palindrome.";
     }
 }

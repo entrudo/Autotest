@@ -34,10 +34,10 @@ public class Conversions2 {
         System.out.println("Convert kilometres to miles");
         double Kil2=Kil/1.60934d;
         System.out.println(Kil2);
-        System.out.println("Convert kilograms to pounds");
+        System.out.println("Convert pounds to kilograms");
         double Kilo2 = Po/2.20462d;
         System.out.println(Kilo2);
-        System.out.println("Convert pounds to kilograms");
+        System.out.println("Convert kilograms to pounds");
         double Po2=Kilo*2.20462d;
         System.out.println(Po2);
         System.out.println("Convert speed km/hr to mi/hr");

@@ -9,7 +9,6 @@ public class Task1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Scanner cr = new Scanner(System.in);
-
         System.out.println("Please write a number in the decimal system:");
         int number = cr.nextInt();
         System.out.println("Please enter number in the binary system:");

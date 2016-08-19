@@ -2,22 +2,23 @@ package com.company.Lessons_home_Work.Lesson4_Home_Work;
 
 public class Task10 {
     public static void main(String[] args) {
-        byte[] array = new byte[128];
-        for (int i=0; i<array.length; i++){
-            array[i] = (byte) i;
+        int[] arr = new int[128];
+        for (int i=0; i<arr.length; i++){
+            arr[i] = i;
         }
-        int[] codes = byteCodes(array);
 
-        for (int code: codes){
-            System.out.println(array[code]);
+        char[] codes = IntCodes(arr);
+
+        for (char code: codes){
+            System.out.println(codes[code]);
         }
     }
 
-    public static int[] byteCodes(byte[] array){
-        int[] codes = new int[array.length];
+        public static char[] IntCodes(int[] array){
+        char[] codes = new char[array.length];
 
         for (int i = 0; i < array.length; i++){
-            codes[i] = (int)array[i];
+            codes[i] = (char)array[i];
         }
         return codes;
     }

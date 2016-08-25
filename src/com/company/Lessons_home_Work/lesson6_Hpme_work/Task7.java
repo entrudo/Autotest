@@ -11,8 +11,7 @@ public class Task7 {
         String word = reader.readLine();
         String temp = "";
         for (int i = 0; i < word.length()-1; i++){
-            temp = word.substring(0, 1);
-            word = word.substring(1) + temp;
+            word = word.substring(1) + word.substring(0, 1);
             System.out.println(word);
 
         }

@@ -1,4 +1,4 @@
-package com.company.Lessons_home_Work.lesson6_Hpme_work;
+package com.company.Lessons_home_Work.Lesson6_Home_Work;
 
 //        6. Product code validation eg: AX6BYU56UX6CV6BNT7NM 287430
 //        1st part can contain only capital letters and 6 digits. 2nd part is all digits and = the product of the

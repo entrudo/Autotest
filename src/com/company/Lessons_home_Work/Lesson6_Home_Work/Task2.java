@@ -1,4 +1,4 @@
-package com.company.Lessons_home_Work.lesson6_Hpme_work;
+package com.company.Lessons_home_Work.Lesson6_Home_Work;
 
 import java.io.BufferedReader;
 import java.io.IOException;

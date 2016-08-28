@@ -15,10 +15,10 @@ public class App {
 
         FractionNumbers fractionNumbers = new FractionNumbers(A, B);
 
-        System.out.println("Method Plus: " + fractionNumbers.Plus(A, B));
-        System.out.println("Method Minus: " + fractionNumbers.Minus(A, B));
-        System.out.println("Method Multiply: " + fractionNumbers.Multiply(A, B));
-        System.out.println("Method Divide: " + fractionNumbers.Divide(A, B));
+        System.out.println("Method Plus: " + fractionNumbers.Plus());
+        System.out.println("Method Minus: " + fractionNumbers.Minus());
+        System.out.println("Method Multiply: " + fractionNumbers.Multiply());
+        System.out.println("Method Divide: " + fractionNumbers.Divide());
 
 
         System.out.println(fractionNumbers);

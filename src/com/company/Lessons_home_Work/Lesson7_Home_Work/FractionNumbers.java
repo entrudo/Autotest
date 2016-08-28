@@ -9,19 +9,19 @@ public class FractionNumbers {
         B = b;
     }
 
-    public int Plus(int A, int B){
+    public int Plus(){
         return A + B;
     }
 
-    public int Minus(int A, int B){
+    public int Minus(){
         return A - B;
     }
 
-    public int Multiply(int A, int B){
+    public int Multiply(){
         return A * B;
     }
 
-    public int Divide(int A, int B){
+    public int Divide(){
         return A / B;
     }
 
@@ -33,5 +33,19 @@ public class FractionNumbers {
                 '}';
     }
 
+    public int getA() {
+        return A;
+    }
 
+    public void setA(int a) {
+        A = a;
+    }
+
+    public int getB() {
+        return B;
+    }
+
+    public void setB(int b) {
+        B = b;
+    }
 }

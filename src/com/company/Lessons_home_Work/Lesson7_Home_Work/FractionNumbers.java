@@ -48,4 +48,16 @@ public class FractionNumbers {
     public void setB(int b) {
         B = b;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        FractionNumbers that = (FractionNumbers) o;
+
+        if (A != that.A) return false;
+        return B == that.B;
+
+    }
 }

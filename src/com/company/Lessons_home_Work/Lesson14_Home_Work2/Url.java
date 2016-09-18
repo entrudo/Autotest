@@ -4,7 +4,7 @@ public class Url {
     private String protocol;
     private String domen;
     private String path;
-    private String param;
+    private String param = "";
 
     private Url(){    }
 
@@ -52,7 +52,7 @@ public class Url {
         }
 
         public builderUrl setparam(String param){
-            Url.this.param = param;
+            Url.this.param += param;
             return this;
         }
 

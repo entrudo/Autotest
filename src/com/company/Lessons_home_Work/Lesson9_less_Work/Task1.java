@@ -6,8 +6,8 @@ public class Task1 {
         TestLogger testLogger = new TestLogger();
         ConfigurationManager conf = ConfigurationManager.getInstance();
         testLogger.log("Setup environment");
-        ConfigurationManager.getInstance().getTestBrowser();
-        ConfigurationManager.getInstance().getTestEnvironment();
+        conf.getTestBrowser();
+        conf.getTestEnvironment();
         testLogger.log("Do smth");
         testLogger.log("Do smth");
         testLogger.log("Do smth");

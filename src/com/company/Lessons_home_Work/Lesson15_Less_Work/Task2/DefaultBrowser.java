@@ -9,16 +9,14 @@ import com.company.Lessons_home_Work.Lesson15_Less_Work.Task2.Factory.RemoteTest
 
 public class DefaultBrowser implements TestBrowserManger {
 
-    private TestBrowserCreator browserCreator = null;
     RunOn runOn = RunOn.getString("BUILDSERVER");
 
     @Override
     public String getTestBrowser() {
-        System.out.println(runOn);
+        TestBrowserCreator browserCreator = null;
         switch (runOn){
             case BUILDSERVER:
                 browserCreator = new BuildServerTestBrowser();
-                System.out.println("TEST");
                 break;
             case LOCAL:
                 browserCreator = new LocalTestBrowser();

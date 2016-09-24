@@ -4,7 +4,7 @@ import com.company.Lessons_home_Work.Lesson15_Less_Work.Task2.API.TestBrowserCre
 import com.company.Lessons_home_Work.Lesson15_Less_Work.Task2.Enum.BrowserType;
 
 public class BuildServerTestBrowser implements TestBrowserCreator {
-    
+
     @Override
     public String createBrowser() {
         BrowserType browserT = BrowserType.getString("CHROME");

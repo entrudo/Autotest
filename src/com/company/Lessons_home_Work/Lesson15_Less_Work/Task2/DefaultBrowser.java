@@ -28,7 +28,7 @@ public class DefaultBrowser implements TestBrowserManger {
                 System.out.println("Sorry");
                 break;
         }
-        return null;
+        return browserCreator.createBrowser();
     }
 
     @Override

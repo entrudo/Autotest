@@ -12,7 +12,6 @@ public class ConfigurationManager {
     public static ConfigurationManager getInstance() {
         if(instance == null)
             return new ConfigurationManager();
-
         return instance;
     }
 
